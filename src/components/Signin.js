@@ -8,7 +8,7 @@ function Signin ({setToken, setName, setRoom, name, room}) {
 
 async function handleSubmit(event) {
     event.preventDefault();
-    const result = await axios.post('https://my-project-1731-dev.twil.io/video-token',
+    const result = await axios.post('Coloque seu Token(url)',
     {
     identity: name,
     room,
